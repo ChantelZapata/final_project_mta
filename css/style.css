@@ -39,13 +39,131 @@
 /*******************************************/
 
 body {
-/*     font-family: 'Roboto', Arial, sans-serif;
-*/}
-
+     width: 100%;
+}
 
 /******************************************
 /* MTA COMMUTER SITE LAYOUT
 /*******************************************/
+
+/* Header Area*/
+header {
+     height: 150px;
+     background-color: #fac90f;
+}
+
+.tempcontainer {
+     width: 940px;
+     margin: 0 auto; 
+}
+
+.logo {
+     margin-top: 30px;
+     margin-left: 42px;
+     float: left;
+}
+
+.navigation {
+     float: right;
+     margin-right: 42px;
+     padding-right: 0;
+}
+
+.secondary-nav {
+     display: inline-block;
+     margin-top: 36px;
+     margin-right: 0;
+}
+
+.main-nav {
+     display: inline-block;
+     margin-right: 0;
+}
+
+.nav-underline {
+     width: 740px;
+     height: 8px;
+     background-color: #000000;
+     padding-right: 0;
+     margin-left: 23px;
+}
+
+.main-item {
+     text-decoration: none;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: bold;
+     font-size: 18px;
+     color: #000000;
+     padding-left: 2px;     
+     margin-left: 1px;
+     margin-right: 0;
+     text-align: justify;
+     width: 740px;
+}
+
+.font-awesome {
+     text-decoration: none;
+     color: #000000; 
+     padding-left: 2px;     
+     margin-left: 1px;
+     margin-right: 0;
+}
+
+.secondary-item {
+     text-decoration: none;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-size: 14px;
+     color: #000000;
+}
+
+/* Main Content Area*/
+
+.main-content {
+     background-color: #fac90f;
+     padding-top: 2px;
+}
+
+.main-content-tempsizer {
+     width: 940px;
+     margin: 0 auto; 
+}
+
+.service-status {
+     width: 220px;
+     margin-left: 42px;
+     float: left;
+}
+
+.trip-planner {
+     margin-left: 0px;
+     margin-right: 50px;
+}
+
+.tp-toprow {
+     display: inline-block;
+}
+
+/* Tourist Call Out */
+.tourists {
+     background-color: #2850b9;
+     height: 110px;
+}
+
+.tourist-holder {
+     width: 940px;
+     margin: 0 auto;
+}
+
+.bottom-cta {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     font-size: 32px;
+     color: rgba(255, 255, 255, 1.0);
+}
+
+.touristicon {
+     padding-top: 10px;
+}
 
 /******************************************
 /* MTA CORP SITE LAYOUT
