@@ -26,13 +26,13 @@
 
 .alignright {
 	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
+/*	padding: 0 0 10px 10px;  note the padding around a right floated image 
+*/}
 
 .alignleft {
 	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
+/*	padding: 0 10px 10px 0;  note the padding around a left floated image 
+*/}
 
 /******************************************
 /* BASE STYLES
@@ -60,24 +60,24 @@ header {
 .logo {
      margin-top: 30px;
      margin-left: 42px;
-     float: left;
 }
 
 .navigation {
-     float: right;
      margin-right: 42px;
      padding-right: 0;
+     width: 740px;
 }
 
 .secondary-nav {
      display: inline-block;
-     margin-top: 36px;
+     margin-top: 26px;
      margin-right: 0;
 }
 
 .main-nav {
      display: inline-block;
      margin-right: 0;
+     margin-top: 0;
 }
 
 .nav-underline {
@@ -99,6 +99,7 @@ header {
      margin-right: 0;
      text-align: justify;
      width: 740px;
+
 }
 
 .font-awesome {
