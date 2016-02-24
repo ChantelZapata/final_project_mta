@@ -72,12 +72,15 @@ header {
      display: inline-block;
      margin-top: 26px;
      margin-right: 0;
+     margin-left: 12px;
+     height: 10px;
 }
 
 .main-nav {
      display: inline-block;
      margin-right: 0;
      margin-top: 0;
+     height: 18px;
 }
 
 .nav-underline {
@@ -132,7 +135,6 @@ header {
 .service-status {
      width: 220px;
      margin-left: 42px;
-     float: left;
 }
 
 .trip-planner {
