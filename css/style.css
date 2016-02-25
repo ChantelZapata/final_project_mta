@@ -58,7 +58,7 @@ header {
 }
 
 .logo {
-     margin-top: 30px;
+     padding-top: 30px;
      margin-left: 42px;
 }
 
@@ -139,13 +139,70 @@ header {
 }
 
 .trip-planner {
-     margin-left: 0px;
-     margin-right: 50px;
+     margin-left: 312px;
+     margin-right: 0px;
 }
 
 .tp-toprow {
      display: inline-block;
 }
+
+.tp-header {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 700;
+     font-size: 60px;
+     color: rgba(255, 255, 255, 1);
+     margin-bottom: 22px;
+}
+
+#one-way {
+     background-color: rgba(176, 142, 12, 0.5);
+     border: solid 3px rgba(176, 142, 12, 0.5);
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     font-size: 14px;
+     color: rgba(255, 255, 255, 1);
+     width: 152px;
+     height: 35px;
+}
+
+#round-trip {
+     background-color: #fac90f;
+     border: solid 3px rgba(176, 142, 12, 0.5);
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     font-size: 14px;
+     color: rgba(255, 255, 255, 1);
+     width: 152px;
+     height: 35px;
+}
+
+.disclaimer {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 300;
+     font-size: 12px;
+     color: rgba(255, 255, 255, 1);
+     margin-left: 215px;
+}
+
+.form-headers {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     font-size: 14px;
+     color: rgba(255, 255, 255, 1);
+}
+
+#letsgo-btn {
+     width: 242px;
+     height: 40px;
+     border: solid 3px #000000;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 700;
+     font-size: 16px;
+     color: #000000;
+     background-color: #fac90f;
+}
+
 
 /* Tourist Call Out */
 .tourists {
@@ -229,3 +286,95 @@ footer {
 /******************************************
 /* MTA CORP SITE LAYOUT
 /*******************************************/
+
+/* Header Area*/
+
+.corp-maincontent {
+     width: 960px;
+     margin: 0 auto; 
+}
+
+.corp-container {
+     height: 600px;
+     width: 100%;
+     background-image: url(../images/corpheader.png);
+     background-size: cover;
+     background-position: center;
+}
+
+.secondary-nav-corp {
+     display: inline-block;
+     margin-top: 16px;
+     margin-right: 0;
+     margin-left: 12px;
+     height: 10px;
+}
+
+.font-awesome-corp {
+     text-decoration: none;
+     color: #ffffff; 
+     padding-left: 2px;     
+     margin-left: 1px;
+     margin-right: 0;
+}
+
+.secondary-item-corp {
+     text-decoration: none;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-size: 14px;
+     color: #ffffff;
+}
+
+.main-nav-corp {
+     display: inline-block;
+     margin-right: 0;
+     margin-top: 0;
+     margin-bottom: 8px;
+     height: 18px;
+}
+
+.main-item-corp {
+     text-decoration: none;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: bold;
+     font-size: 18px;
+     color: #ffffff;    
+     padding-left: 14px;
+     margin-right: 0;
+     text-align: justify;
+     width: 740px;
+}
+
+.nav-underline-corp {
+     width: 740px;
+     height: 8px;
+     background-color: #ffffff;
+     margin-right: 0;
+     margin-left: 0;
+     margin-top: 120px;
+/*     margin-bottom: 120px;*/
+}
+
+.headline-corp {
+     margin-top: 0;
+     padding-top: 240px;
+     width: 800px;
+     text-align: left;
+     font-size: 50px;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 300;
+     color: rgba(255, 255, 255, 1);
+     margin-left: 42px;
+}
+
+.see-how-btn {
+     width: 220px;
+     height: 50px;
+     border: solid 2px #f8f7f7;
+     font-size: 18px;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     color: rgba(255, 255, 255, 1);
+     background: transparent;
+     margin-left: 42px;
+}

@@ -63,16 +63,12 @@
 
 <!-- TRIP PLANNER -->	
 <div class="trip-planner">
-	<h1 id="tp-header">TRIP PLANNER</h1>
+	<h1 class="tp-header">TRIP PLANNER</h1>
 	
 	<div class="tp-toprow">
-		<div>
-		<button class="one-way">One Way</button>
-		</div>
-		<div>
-		<button class="round-trip">Round Trip</button>
-		</div>
-		<p class="disclaimer">* Mandatory Field</p>
+		<button id="one-way">ONE WAY</button>
+		<button id="round-trip">ROUND TRIP</button>
+		<span class="disclaimer">* Mandatory Field</span>
 	</div>
 
 	<div class="tp-column1">
@@ -96,7 +92,7 @@
 			<input type="text" id="field" placeholder="Full Address, Landmark, or Station Name">
 			<h2 class="form-headers">DATE</h2>
 			<input type="text" id="field" placeholder="00/00/0000">
-			<input type="radio" id="radiobuttn" name="leavearrive" value="leaveby" checked> LEAVE BY<br>
+			<input type="radio" id="radiobuttn" name="leavearrive" value="leaveby" checked> LEAVE BY <br>
 			<input type="radio" id="radiobuttn" name="leavearrive" value="arriveby"> ARRIVE BY<br>
 
 			<input list="hour" placeholder="1">
