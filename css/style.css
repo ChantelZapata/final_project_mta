@@ -141,6 +141,7 @@ header {
 .trip-planner {
      margin-left: 312px;
      margin-right: 0px;
+     overflow: hidden;
 }
 
 .tp-toprow {
@@ -203,6 +204,16 @@ header {
      background-color: #fac90f;
 }
 
+.tp-column1 {
+     overflow: hidden;
+     width: 310px;
+}
+
+.tp-column2 {
+     overflow: hidden;
+     width: 310px;
+     margin-right: 0;
+}
 
 /* Tourist Call Out */
 .tourists {
