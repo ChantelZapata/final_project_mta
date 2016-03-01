@@ -71,70 +71,73 @@
 		<span class="disclaimer">* Mandatory Field</span>
 	</div>
 
-	<div class="tp-column1 alignleft clear">
+	<div class="tp-column1 alignleft">
 		<form class="entry">
 			<h2 class="form-headers">FROM*</h2>
-			<input type="text" id="field" placeholder="Full Address, Landmark, or Station Name">
+			<input type="text" class="field" placeholder="Full Address, Landmark, or Station Name">
 			<h2 class="form-headers">DATE</h2>
-			<input type="text" id="field" placeholder="00/00/0000">
+			<input type="text" class="field" placeholder="00/00/0000">
+
+			<br />
+			<br />
+				<input type="radio" class="radiobuttn" name="leavearrive" value="leaveby" checked><span class="form-headers">  LEAVE BY</span>
+				<span class="spacer"></span>
+				<input type="radio" class="radiobuttn" name="leavearrive" value="arriveby"><span class="form-headers">  ARRIVE BY</span><br>
+		
+ 			<select class="hour" placeholder="1">
+    		<option value="1">1</option>
+    		<option value="2">2</option>
+    		<option value="3">3</option>
+    		<option value="4">4</option>
+    		<option value="5">5</option>
+    		<option value="6">6</option>
+    		<option value="7">7</option>
+    		<option value="8">8</option>
+    		<option value="9">9</option>
+    		<option value="10">10</option>
+    		<option value="11">11</option>
+    		<option value="12">12</option>
+  			</select> 
+
+  			<select id="minutes" placeholder="00">
+    		<option value="00">00</option>
+    		<option value="10">10</option>
+    		<option value="20">20</option>
+    		<option value="30">30</option>
+    		<option value="40">40</option>
+    		<option value="50">50</option>
+    		<option value="60">60</option>
+  			</select> 
+
+  			<select class="ampm" placeholder="AM">
+    		<option value="AM">AM</option>
+    		<option value="PM">PM</option>
+  			</select> 
+
 			<h2 class="form-headers">USING THE…</h2>
-			<input type="radio" id="radiobuttn" name="using" value="subway" checked> SUBWAY<br>
-			<input type="radio" id="radiobuttn" name="using" value="bus"> BUS<br>
-			<input type="radio" id="radiobuttn" name="using" value="lirr"> LIRR<br>
-			<input type="radio" id="radiobuttn" name="using" value="metronorth"> METRO-NORTH<br>
+			<input type="radio" class="radiobuttn" name="using" value="subway" checked><span class="form-subheaders">SUBWAY</span><br>
+			<input type="radio" class="radiobuttn" name="using" value="bus"><span class="form-subheaders">BUS</span><br>
+			<input type="radio" class="radiobuttn" name="using" value="lirr"><span class="form-subheaders">LIRR</span><br>
+			<input type="radio" class="radiobuttn" name="using" value="metronorth"><span class="form-subheaders">METRO-NORTH</span><br>
 			<input type="submit" value="LET’S GO!" id="letsgo-btn">
 		</form>
 	</div>
 
-	<div class="tp-column2 alignright clear">
+	<div class="tp-column2 alignright">
 		<form class="entry">
 			<h2 class="form-headers">TO*</h2>
-			<input type="text" id="field" placeholder="Full Address, Landmark, or Station Name">
+			<input type="text" class="field" placeholder="Full Address, Landmark, or Station Name">
 			<h2 class="form-headers">DATE</h2>
-			<input type="text" id="field" placeholder="00/00/0000">
-			<input type="radio" id="radiobuttn" name="leavearrive" value="leaveby" checked> LEAVE BY <br>
-			<input type="radio" id="radiobuttn" name="leavearrive" value="arriveby"> ARRIVE BY<br>
-
-			<input list="hour" placeholder="1">
-  			<datalist id="hour">
-    		<option value="1">
-    		<option value="2">
-    		<option value="3">
-    		<option value="4">
-    		<option value="5">
-    		<option value="6">
-    		<option value="7">
-    		<option value="8">
-    		<option value="9">
-    		<option value="10">
-    		<option value="11">
-    		<option value="12">
-  			</datalist> 
-
-  			<input list="minutes" placeholder="00">
-  			<datalist id="minutes">
-    		<option value="00">
-    		<option value="10">
-    		<option value="20">
-    		<option value="30">
-    		<option value="40">
-    		<option value="50">
-    		<option value="60">
-  			</datalist> 
-
-  			<input list="ampm" placeholder="AM">
-  			<datalist id="ampm">
-    		<option value="AM">
-    		<option value="PM">
-  			</datalist> 
-
+			<input type="text" class="field" placeholder="00/00/0000">
+			
 			<h2 class="form-headers">WOULD YOU LIKE…</h2>
-			<input type="radio" id="radiobuttn" name="like" value="lesstransfers" checked> LESS TRANSFERS?<br>
-			<input type="radio" id="radiobuttn" name="like" value="lesswalking"> LESS WALKING?<br>
-			<input type="radio" id="radiobuttn" name="like" value="accessible"> ACCESSIBLE TRIP?<br>
+			<input type="radio" class="radiobuttn" name="like" value="lesstransfers" checked><span class="form-subheaders">LESS TRANSFERS?</span><br>
+			<input type="radio" class="radiobuttn" name="like" value="lesswalking"><span class="form-subheaders">LESS WALKING?</span><br>
+			<input type="radio" class="radiobuttn" name="like" value="quickest"><span class="form-subheaders">QUICKEST TRIP?</span><br>
+			<input type="radio" class="radiobuttn" name="like" value="accessible"><span class="form-subheaders">ACCESSIBLE TRIP?</span><br>
 		</form>
 	</div>
-	<img src="images/peopleandtrains.png" alt="Boarding the Train" width="351px" height="132px">
+	<img src="images/peopleandtrains.png" alt="Boarding the Train" width="298px" height="120px" class="alignright peopleicon">
 </div>
 </div>
 </div>

@@ -141,6 +141,7 @@ header {
 .trip-planner {
      margin-left: 312px;
      margin-right: 0px;
+     padding-bottom: 64px;
      overflow: hidden;
 }
 
@@ -153,7 +154,15 @@ header {
      font-weight: 700;
      font-size: 60px;
      color: rgba(255, 255, 255, 1);
-     margin-bottom: 22px;
+     margin-bottom: 12px;
+     margin-top: 12px;
+}
+
+.radiobuttn {
+     font-size: 12px;
+     margin-left: 2px;
+     margin-right: 12px;
+     margin-bottom: 4px;
 }
 
 #one-way {
@@ -165,6 +174,7 @@ header {
      color: rgba(255, 255, 255, 1);
      width: 152px;
      height: 35px;
+     margin-right: 0;
 }
 
 #round-trip {
@@ -176,6 +186,7 @@ header {
      color: rgba(255, 255, 255, 1);
      width: 152px;
      height: 35px;
+     margin-left: 0;
 }
 
 .disclaimer {
@@ -189,12 +200,46 @@ header {
 .form-headers {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
-     font-size: 14px;
+     font-size: 16px;
      color: rgba(255, 255, 255, 1);
+     margin-top: 22px;
+     margin-bottom: 8px;
+}
+
+.form-subheaders {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(255, 255, 255, 1);
+     margin-top: 24px;
+     margin-bottom: 8px;
+}
+
+.spacer {
+     margin-right: 20px;
+}
+
+.field {
+     width: 310px;
+     height: 30px;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 400;
+     font-size: 12px;
+     padding-left: 6px;
+}
+
+select {
+     width: 96px;
+     height: 30px;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 400;
+     font-size: 12px;
+     margin-top: 12px;
+     margin-right: 4px;
 }
 
 #letsgo-btn {
-     width: 242px;
+     width: 310px;
      height: 40px;
      border: solid 3px #000000;
      font-family: "Roboto", Helvetica, san-serif;
@@ -202,6 +247,7 @@ header {
      font-size: 16px;
      color: #000000;
      background-color: #fac90f;
+     margin-top: 40px;
 }
 
 .tp-column1 {
@@ -214,6 +260,11 @@ header {
      width: 310px;
      margin-right: 0;
 }
+
+.peopleicon {
+     margin-top: 62px;
+}
+
 
 /* Tourist Call Out */
 .tourists {
