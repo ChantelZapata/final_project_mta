@@ -272,9 +272,8 @@ select {
 
 .peopleicon {
      margin-top: 78px;
-     margin-right: 42px;
-     width: 278px;
-     height: 100px;
+     margin-right: 4.375%;
+     width: 40%;
 }
 
 
@@ -285,7 +284,7 @@ select {
 }
 
 .tourist-holder {
-     width: 960px;
+     width: 93.75%;
      margin: 0 auto;
 }
 
@@ -295,11 +294,11 @@ select {
      font-size: 32px;
      color: rgba(255, 255, 255, 1.0);
      margin-right: 228px;
-     margin-top: 37px;
+     margin-top: 38px;
 }
 
 .touristicon {
-     margin-left: 220px;
+     margin-left: 23.125%;
 }
 
 /* Footer */
@@ -309,7 +308,7 @@ footer {
 }
 
 .footer-holder {
-     width: 960px;
+     width: 93.75%;
      margin: 0 auto;
 }
 
@@ -364,7 +363,7 @@ footer {
 /* Header Area*/
 
 .corp-maincontent {
-     width: 960px;
+     width: 93.75%;
      margin: 0 auto; 
 }
 
@@ -403,7 +402,7 @@ footer {
      display: inline-block;
      margin-right: 0;
      margin-top: 0;
-     margin-bottom: 8px;
+     margin-bottom: 0.781%;
      height: 18px;
 }
 
@@ -416,23 +415,22 @@ footer {
      padding-left: 14px;
      margin-right: 0;
      text-align: justify;
-     width: 740px;
+     width: 72.265%;
 }
 
 .nav-underline-corp {
-     width: 740px;
+     width: 77.083;
      height: 8px;
      background-color: #ffffff;
-     margin-right: 0;
-     margin-left: 0;
-     margin-top: 120px;
-/*     margin-bottom: 120px;*/
+     padding-right: 0;
+     margin-left: 5.98%;
+     margin-top: 15.15%;
 }
 
 .headline-corp {
      margin-top: 0;
-     padding-top: 240px;
-     width: 800px;
+     padding-top: 23.437%;
+     width: 78.125%;
      text-align: left;
      font-size: 50px;
      font-family: "Roboto", Helvetica, san-serif;
@@ -450,12 +448,12 @@ footer {
      font-weight: 400;
      color: rgba(255, 255, 255, 1);
      background: transparent;
-     margin-left: 42px;
+     margin-left: 4.101%;
 }
 
 /* News Area*/
 .whats-new {
-     width: 940px;
+     width: 92%;
      margin: 0 auto; 
 }
 
@@ -480,7 +478,7 @@ footer {
      background: transparent;
      margin-top: 50px;
      margin-bottom: 50px;
-     margin-left: 360px;
+     margin-left: 37.5%;
 }
 
 /* News Row 1*/
@@ -604,3 +602,5 @@ footer {
      text-align: right;
      line-height: 14px;
 }
+
+
