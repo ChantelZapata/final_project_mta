@@ -43,8 +43,8 @@
 			<li class="main-nav"><a class="main-item" href="comingsoon.html"> BRIDGES &#38; TUNNELS </a></li>
 			<li class="main-nav"><a class="main-item" href="comingsoon.html"> FARES &#38; TOLLS <a></li>
 		</ul>
-		<div class="nav-underline"></div>
 	</nav>
+		<div class="nav-underline"></div>
 	</div>
 	</div>
 </header>
@@ -53,12 +53,17 @@
 <div class="main-content">
 <div class="main-content-tempsizer">
 <aside class="service-status alignleft">
-	<img src="images/currentservicestatus.png" alt="Current Status" class="current-status" width="100%">
+	<img src="images/currentservicestatus.png" alt="Current Status" class="current-status service-image" width="100%">
 	<img src="images/subwayexpanded.png" alt="Subway Service Status" class="subway-exp service-image"  width="100%">
+	<img src="images/subwaycollapsed.png" alt="Subway Service Status" class="subway-colps service-image"  width="100%">
 	<img src="images/buscollapsed.png" alt="Bus Service Status" class="bus-colps service-image"  width="100%">
+	<img src="images/busexpanded.png" alt="Bus Service Status" class="bus-exp service-image"  width="100%">
 	<img src="images/lirrcollapsed.png" alt="LIRR Service Status" class="lirr-colps service-image"  width="100%">
+	<img src="images/lirrexpanded.png" alt="LIRR Service Status" class="lirr-exp service-image"  width="100%">
 	<img src="images/metronorthcollapsed.png" alt="Metro-North Service Status" class="metro-colps service-image"  width="100%">
+	<img src="images/metronorthexpanded.png" alt="Metro-North Service Status" class="metro-exp service-image"  width="100%">
 	<img src="images/bridgescollapsed.png" alt="Bridges Service Status" class="bridges-colps service-image"  width="100%">
+	<img src="images/bridgesexpanded.png" alt="Bridges Service Status" class="bridges-exp service-image"  width="100%">
 </aside>
 
 <!-- TRIP PLANNER -->	
@@ -120,6 +125,7 @@
 			<input type="radio" class="radiobuttn" name="using" value="lirr"><span class="form-subheaders">LIRR</span><br>
 			<input type="radio" class="radiobuttn" name="using" value="metronorth"><span class="form-subheaders">METRO-NORTH</span><br>
 			<input type="submit" value="LET’S GO!" id="letsgo-btn">
+			<span id="lets-go-message"></span>
 		</form>
 	</div>
 
