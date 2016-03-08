@@ -70,6 +70,13 @@ $('.bridges-colps').on('click',function (){
 	$('.bridges-colps').hide();
 	});
 
+/*---- Corporate Site:News Section ----
+*/
+
+$('.load-more').on('click',function (){
+	$('.news-row3').slideDown(1000);
+	});
+
 
 
 
