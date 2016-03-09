@@ -135,7 +135,7 @@ header {
 }
 
 .service-status {
-     width: 220px;
+     width: 240px;
      margin-left: 4.101%;
      margin-top: 1.5625%;
      margin-bottom: 42px;
@@ -170,7 +170,7 @@ header {
 
 .tp-toprow {
      display: inline-block;
-     margin: 1.5625% 0 1.5625% 0;
+     margin: 18px 0 30px 0;
 }
 
 .tp-header {
@@ -179,7 +179,7 @@ header {
      font-size: 60px;
      color: rgba(255, 255, 255, 1);
      margin-bottom: 1.171%;
-     margin-top: 1.171%;
+     margin-top: 3%;
 }
 
 .dropdown {
@@ -216,7 +216,6 @@ header {
      font-weight: 300;
      font-size: 12px;
      color: rgba(255, 255, 255, 1);
-     margin-left: 244px;
 }
 
 .tp-column1 {
@@ -235,8 +234,18 @@ header {
      font-weight: 500;
      font-size: 16px;
      color: rgba(255, 255, 255, 1);
-     margin-top: 22px;
+     margin-top: 30px;
      margin-bottom: 8px;
+}
+
+.form-headers-like {
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: rgba(255, 255, 255, 1);
+     margin-top: 30px;
+     margin-bottom: 8px;
+     padding-top: 10px;
 }
 
 
@@ -265,10 +274,8 @@ header {
 
 .radiobuttn {
      font-size: 12px;
-     margin-left: 2px;
-     margin-right: 12px;
-     margin-bottom: 4px;
-     border: none;
+     margin: 0px 12px 4px 2px;
+     padding-top: 2px;
 }
 
 select {
@@ -280,12 +287,12 @@ select {
 }
 
 #letsgo-btn {
-     width: 100%;
+     width: 300px;
      height: 40px;
      border: solid 3px #000000;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 700;
-     font-size: 16px;
+     font-size: 18px;
      color: #000000;
      background-color: #fac90f;
      margin-top: 40px;
@@ -293,7 +300,7 @@ select {
 
 
 .peopleicon {
-     margin-top: 78px;
+     margin-top: 20px;
      margin-right: 4.375%;
      width: 40%;
 }

@@ -70,11 +70,12 @@
 <div class="trip-planner">
 	<h1 class="tp-header">TRIP PLANNER</h1>
 	
-	<div class="tp-toprow">
+	<div class="tp-toprow alignleft">
 		<button id="one-way">ONE WAY</button>
 		<button id="round-trip">ROUND TRIP</button>
-		<span class="disclaimer">* Mandatory Field</span>
 	</div>
+
+	<div class="disclaimer clear">* Mandatory Field</div>
 
 	<div class="tp-column1 alignleft">
 		<form class="entry">
@@ -85,9 +86,10 @@
 
 			<br />
 			<br />
-				<input type="radio" class="radiobuttn" name="leavearrive" value="leaveby" checked><span class="form-headers">  LEAVE BY</span>
+			<br />
+				<input type="radio" class="radiobuttn" name="leavearrive" value="leaveby" checked><label class="form-headers">  LEAVE BY</label>
 				<span class="spacer"></span>
-				<input type="radio" class="radiobuttn" name="leavearrive" value="arriveby"><span class="form-headers">  ARRIVE BY</span><br>
+				<input type="radio" class="radiobuttn" name="leavearrive" value="arriveby"><label class="form-headers">  ARRIVE BY</labels><br>
 		
  			<select class="dropdown" placeholder="1">
     		<option value="1">1</option>
@@ -120,30 +122,31 @@
   			</select> 
 
 			<h2 class="form-headers">USING THE…</h2>
-			<input type="radio" class="radiobuttn" name="using" value="subway" checked><span class="form-subheaders">SUBWAY</span><br>
-			<input type="radio" class="radiobuttn" name="using" value="bus"><span class="form-subheaders">BUS</span><br>
-			<input type="radio" class="radiobuttn" name="using" value="lirr"><span class="form-subheaders">LIRR</span><br>
-			<input type="radio" class="radiobuttn" name="using" value="metronorth"><span class="form-subheaders">METRO-NORTH</span><br>
-			<input type="submit" name="submit" id="letsgo-btn" value="LET’S GO!">
-		</form>
-	</div>
+			<input type="radio" class="radiobuttn" name="using" value="subway" checked><label class="form-subheaders">SUBWAY</label><br>
+			<input type="radio" class="radiobuttn" name="using" value="bus"><label class="form-subheaders">BUS</label><br>
+			<input type="radio" class="radiobuttn" name="using" value="lirr"><label class="form-subheaders">LIRR</label><br>
+			<input type="radio" class="radiobuttn" name="using" value="metronorth"><label class="form-subheaders">METRO-NORTH</label><br>
+		</div>
 
-	<div class="tp-column2 alignright">
-		<form class="entry">
-			<h2 class="form-headers">TO*</h2>
-			<input type="text" class="field" placeholder="Full Address, Landmark, or Station Name">
-			<h2 class="form-headers">DATE</h2>
-			<input type="text" class="field" placeholder="00/00/0000">
-			
-			<h2 class="form-headers">WOULD YOU LIKE…</h2>
-			<input type="radio" class="radiobuttn" name="like" value="lesstransfers" checked><span class="form-subheaders">LESS TRANSFERS?</span><br>
-			<input type="radio" class="radiobuttn" name="like" value="lesswalking"><span class="form-subheaders">LESS WALKING?</span><br>
-			<input type="radio" class="radiobuttn" name="like" value="quickest"><span class="form-subheaders">QUICKEST TRIP?</span><br>
-			<input type="radio" class="radiobuttn" name="like" value="accessible"><span class="form-subheaders">ACCESSIBLE TRIP?</span><br>
+		<div class="tp-column2 alignright">
+				<h2 class="form-headers">TO*</h2>
+				<input type="text" class="field" placeholder="Full Address, Landmark, or Station Name">
+				<h2 class="form-headers">DATE</h2>
+				<input type="text" class="field" placeholder="00/00/0000">
+
+				<h2 class="form-headers-like">WOULD YOU LIKE…</h2>
+				<input type="radio" class="radiobuttn" name="like" value="lesstransfers" checked><label class="form-subheaders">LESS TRANSFERS?</label><br>
+				<input type="radio" class="radiobuttn" name="like" value="lesswalking"><label class="form-subheaders">LESS WALKING?</label><br>
+				<input type="radio" class="radiobuttn" name="like" value="quickest"><label class="form-subheaders">QUICKEST TRIP?</label><br>
+				<input type="radio" class="radiobuttn" name="like" value="accessible"><label class="form-subheaders">ACCESSIBLE TRIP?</label><br>
+		</div>
+
+		<div class="tp-last-row clear">
+				<input type="submit" name="submit" id="letsgo-btn" class="alignleft" value="LET’S GO!">
+				<img src="images/peopleandtrains.png" alt="Boarding the Train" class="alignright peopleicon">
+		</div>
 		</form>
 	</div>
-	<img src="images/peopleandtrains.png" alt="Boarding the Train" class="alignright peopleicon">
-</div>
 </div>
 </div>
 
