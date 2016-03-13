@@ -51,6 +51,10 @@ header {
      background-color: #fac90f;
 }
 
+ul { 
+     margin:0; 
+}
+
 .tempcontainer {
      width: 93.75%;
      margin: 0 auto; 
@@ -64,7 +68,6 @@ header {
 .navigation {
      margin-right: 4.101%;
      width: 82%;
-     margin-top: -60px;
 }
 
 .secondary-nav {
