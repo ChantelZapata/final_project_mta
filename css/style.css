@@ -57,7 +57,7 @@ ul {
 
 .tempcontainer {
      width: 93.75%;
-     margin: 0 auto; 
+     margin: 0 auto;
 }
 
 .logo {
@@ -66,8 +66,10 @@ ul {
 }
 
 .navigation {
+     margin-top: -10px;
      margin-right: 4.101%;
      width: 82%;
+     display:inline-block;
 }
 
 .secondary-nav {
@@ -78,8 +80,7 @@ ul {
 
 .main-nav {
      display: inline-block;
-     margin-right: 0;
-     height: 18px;
+     margin: 0;
 }
 
 .nav-underline {
@@ -88,7 +89,7 @@ ul {
      background-color: #000000;
      margin-right: 0;
      margin-left: 0;
-     margin-top: 120px;
+     margin-top: 132px;
 }
 
 .main-item {
@@ -108,7 +109,7 @@ ul {
      text-decoration: none;
      color: #000; 
      font-size: 0.3em;/* 18px;*/
-     padding-left: 2px;     
+     padding-left: 1px;     
      margin-left: 1px;
      margin-right: 0;
 }
@@ -135,8 +136,13 @@ ul {
 .service-status {
      width: 240px;
      margin-left: 4.101%;
-     margin-top: 1.5625%;
+     margin-top: 40px;
      margin-bottom: 42px;
+     font-size: 0;
+}
+
+.service-image {
+     padding-bottom: 2px;
 }
 
 .subway-colps {
@@ -160,41 +166,42 @@ ul {
 }
 
 .trip-planner {
-     margin-left: 30.468%;
+     margin-left: 30%;
      margin-right: 0;
      padding-bottom: 6.25%;
      overflow: hidden;
+     font-size: 0;
 }
 
 .tp-toprow {
      display: inline-block;
-     margin: 18px 0 30px 0;
+     margin: 0px 0 30px 0;
 }
 
 .tp-header {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 700;
-     font-size: 1em; /*60px;*/
-     color: rgba(255, 255, 255, 1);
-     margin-bottom: 1.171%;
-     margin-top: 3%;
+     font-size: 60px;
+     color: #fff;
+     margin-bottom: 10px;
+     margin-top: 60px;
 }
 
 .dropdown {
      width: 25%;
 }
 
-
 #one-way {
      background-color: rgba(176, 142, 12, 0.5);
      border: solid 3px rgba(176, 142, 12, 0.5);
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
-     font-size: 14px;
-     color: rgba(255, 255, 255, 1);
+     font-size: 14px; /*0.233em; */
+     color: #fff;
      width: 140px;
      height: 35px;
      margin-right: 0;
+     margin-top: 10px;
 }
 
 #round-trip {
@@ -202,18 +209,19 @@ ul {
      border: solid 3px rgba(176, 142, 12, 0.5);
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
-     font-size: 14px;
-     color: rgba(255, 255, 255, 1);
+     font-size: 14px; /*0.233em; */
+     color: #fff;
      width: 140px;
      height: 35px;
      margin-left: 0;
+     margin-top: 10px;
 }
 
 .disclaimer {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 300;
-     font-size: 12px;
-     color: rgba(255, 255, 255, 1);
+     font-size: 12px; /*0.2em;*/
+     color: #fff;
 }
 
 .tp-column1 {
@@ -230,33 +238,32 @@ ul {
 .form-headers {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
-     font-size: 16px;
-     color: rgba(255, 255, 255, 1);
+     font-size: 16px;/*  0.266em; */
+     color: #fff;
      margin-top: 30px;
-     margin-bottom: 8px;
 }
 
 .form-headers-like {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
-     font-size: 16px;
-     color: rgba(255, 255, 255, 1);
+     font-size: 16px;/*  0.266em; */     
+     color: #fff;
      margin-top: 30px;
-     margin-bottom: 8px;
-     padding-top: 10px;
 }
 
 
 .form-subheaders {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
-     font-size: 16px;
-     color: rgba(255, 255, 255, 1);
-     margin-top: 24px;
-     margin-bottom: 8px;
+     font-size: 16px;/*  0.266em; */
+     color: #fff;
 }
 
 .spacer {
+     margin: 30px;
+}
+
+.spacer2 {
      margin-right: 20px;
 }
 
@@ -265,13 +272,13 @@ ul {
      height: 30px;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
-     font-size: 12px;
+     font-size: 12px;/* 0.2em; */
      padding-left: 6px;
      border: none;
 }
 
 .radiobuttn {
-     font-size: 12px;
+     font-size: 12px;/* 0.2em; */
      margin: 0px 12px 4px 2px;
      padding-top: 2px;
 }
@@ -279,7 +286,7 @@ ul {
 select {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
-     font-size: 12px;
+     font-size: 12px;/* 0.2em; */
      margin-top: 12px;
      margin-right: 4px;
 }
@@ -296,11 +303,9 @@ select {
      margin-top: 40px;
 }
 
-
 .peopleicon {
-     margin-top: 20px;
      margin-right: 4.375%;
-     width: 40%;
+     width: 42%;
 }
 
 
@@ -330,7 +335,7 @@ select {
 
 /* Footer */
 footer {
-     background-color: #000000;
+     background-color: #000;
      height: 200px;
 }
 
@@ -347,11 +352,12 @@ footer {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
      color: #fff;
-     margin-left: 6px;
-     margin-right: 6px;
+     margin-left: 4px;
+     margin-right: 4px;
 }
 
 .footer-legal {
+     padding-top: 20px;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 300;
      font-size: 0.2em; /*12px;*/
@@ -395,7 +401,7 @@ footer {
 }
 
 .corp-container {
-     height: 600px;
+     height: 680px;
      width: 100%;
      background-image: url(../images/corpheader.png);
      background-size: cover;
@@ -404,15 +410,13 @@ footer {
 
 .secondary-nav-corp {
      display: inline-block;
-     margin-top: 16px;
      margin-right: 0;
      margin-left: 12px;
-     height: 10px;
 }
 
 .font-awesome-corp {
      text-decoration: none;
-     color: #ffffff; 
+     color: #fff; 
      font-size: 0.3em;/* 18px;*/
      padding-left: 2px;     
      margin-left: 1px;
@@ -428,10 +432,7 @@ footer {
 
 .main-nav-corp {
      display: inline-block;
-     margin-right: 0;
-     margin-top: 0;
-     margin-bottom: 8px;
-     height: 18px;
+     margin: 0;
 }
 
 .main-item-corp {
@@ -452,7 +453,7 @@ footer {
      background-color: #fff;
      margin-right: 0;
      margin-left: 0;
-     margin-top: 120px;
+     margin-top: 132px;
 }
 
 .headline-corp {
@@ -460,9 +461,10 @@ footer {
      padding-top: 23.437%;
      width: 78.125%;
      text-align: left;
-     font-size: 50px;
+     font-size: 0.833em; /*50px;*/
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 300;
+     line-height: 60px;
      color: #fff;
      margin-left: 42px;
 }
@@ -471,7 +473,7 @@ footer {
      width: 220px;
      height: 50px;
      border: solid 2px #f8f7f7;
-     font-size: 18px;
+     font-size: 0.3em; /*18px;*/
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
      color: #fff;
@@ -486,7 +488,7 @@ footer {
 }
 
 .subhead-corp {
-     font-size: 36px;
+     font-size: 0.6em; /*36px;*/
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 300;
      text-align: center;
@@ -497,7 +499,7 @@ footer {
 .load-more {
      width: 220px;
      height: 50px;
-     font-size: 18px;
+     font-size:  0.3em; /*18px;*/
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
      color: #8e8c8c;
