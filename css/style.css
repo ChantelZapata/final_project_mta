@@ -92,8 +92,7 @@ ul {
      margin-top: 132px;
 }
 
-.main-item {
-     text-decoration: none;
+.main-item:link, .main-item:visited {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: bold;
      font-size: 0.3em;/* 18px;*/
@@ -105,7 +104,12 @@ ul {
      width: 72.265%;
 }
 
-.font-awesome {
+.main-item:hover, .main-item:active {
+    color: #626261;
+    text-decoration: none;
+}
+
+.font-awesome:link, .font-awesome:visited {
      text-decoration: none;
      color: #000; 
      font-size: 0.3em;/* 18px;*/
@@ -114,11 +118,21 @@ ul {
      margin-right: 0;
 }
 
-.secondary-item {
+.font-awesome:hover, .font-awesome:active {
+    color: #626261;
+    text-decoration: none;
+}
+
+.secondary-item:link, .secondary-item:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-size: 0.233em; /*14px;*/
      color: #000;
+}
+
+.secondary-item:hover, .secondary-item:active {
+    color: #626261;
+    text-decoration: none;
 }
 
 /* Main Content Area*/
@@ -370,7 +384,7 @@ footer {
      width: 182px;
      height: 40px;
      background-color: #000;
-     border: solid 2px #f8f7f7;
+     border: solid 1px #f8f7f7;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 500;
      font-size: 0.266em; /*16px;*/
