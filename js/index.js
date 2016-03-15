@@ -5,10 +5,13 @@ $('.letsgo-btn').on('click',function(event){
 	$('.expd-no-planner').slideDown();
 });
 
-$('#pizza-submit')
-	.on('click', function (){
- 	alert("Thanks for Signing Up! Here's your pizza code: FREEPIZZAYEAH");
+$('#pizza-submit').on('click', function (){
+ 	alert("Thanks for signing up! Here's your pizza code: FREEPIZZAYEAH");
  });
+
+/*$('alert').on('close', function (){
+ 	alert("Thanks for signing up! Here's your pizza code: FREEPIZZAYEAH");
+ });*/
 
 /*---- Main Site:Service Status ----
 */
@@ -113,8 +116,24 @@ function calcRoute() {
   });
 }*/
 
-var userInput;
-var directions = originAddress.replace(/ /g, '+')
+/*var userInput;
+var directions = originAddress.replace(/ /g, '+')*/
+
+//if userInput was '7 penn plaza, new york, ny 10001'
+
+$('.letsgo-btn2').on('click',function (){
+	var startingPoint = $('.startPoint').val();
+	startingPoint = startingPoint.replace(/ /g, '+');
+
+	var endingPoint = $('.endPoint').val();
+	endingPoint = endingPoint.replace(/ /g, '+');
+
+	var srcString = 'https://www.google.com/maps/embed/v1/directions?key=AIzaSyCttSTCEc-Av7SBXnVwVOAOG46oylyRVx0&origin='+startingPoint+'&destination='+endingPoint+'&mode=transit&avoid=tolls|highways'
+	$('iframe').attr('src', srcString);
+});
+
+	
+//it ends up 7+penn+plaza
 
 
 

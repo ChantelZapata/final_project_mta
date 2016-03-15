@@ -78,7 +78,7 @@
 	<div class="disclaimer clear">* Mandatory Field</div>
 
 	<div class="tp-column1 alignleft">
-		<form class="entry">
+		<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form_response" class="entry">
 			<h2 class="form-headers">FROM*</h2>
 			<input type="text" class="field" placeholder="Full Address, Landmark, or Station Name">
 			<h2 class="form-headers">DATE</h2>
@@ -147,6 +147,7 @@
 				<input type="submit" name="submit" id="letsgo-btn" class="letsgo-btn alignleft" value="LET’S GO!">
 				<img src="images/peopleandtrains.png" alt="Boarding the Train" class="alignright peopleicon">
 		</div>
+		<iframe name="form_response" style="width:0;height:0;visibility:hidden;overflow:hidden;"></iframe>
 		</form>
 	</div>
 </div>
@@ -161,12 +162,27 @@
 	<input type="submit" name="submit" id="pizza-submit" class="pizza-submit" value="SIGN ME UP!">
 	<br />
 
-	<iframe 
+<div class="get-directions">
+	<p class="get-that-pizza">Enter your start and end points below.</p>
+	<input type="text" class="field email-field startPoint" placeholder="Start Point">
+	<input type="text" class="field email-field endPoint" placeholder="End Point">
+	<br />
+	<input type="submit" name="submit" id="letsgo-btn2" class="pizza-submit letsgo-btn2" value="LET’S GO (FOR REAL THIS TIME...)">
+</div>
+
+	<iframe
+	class="the-map" 
 	width="80%" 
 	height="400" 
 	frameborder="0" 
 	style="border:0" 
-	src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCttSTCEc-Av7SBXnVwVOAOG46oylyRVx0&origin=636+11th+Ave,+New+York,+NY&destination=10+East+21st+Street,+New+York,+NY&mode=transit&avoid=tolls|highways" allowfullscreen></iframe>
+	src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCttSTCEc-Av7SBXnVwVOAOG46oylyRVx0&origin=+New+York,+NY&destination=+New+York,+NY&mode=transit&avoid=tolls|highways" allowfullscreen></iframe>
+
+<!-- 	//if userInput was '7 penn plaza, new york, ny 10001'
+	var userInput = $('.userInput').val();
+	userInput = userInput.replace(/ /g, '+');
+	//it ends up 7+penn+plaza -->
+
 
 
 <!-- 	<iframe 
@@ -190,7 +206,7 @@
 <!-- FOOTER -->
 <footer>
 	<div class="footer-holder">
-	<ul id="footer-line-items">
+	<ul class="footer-line-items">
 		<li class="footer-nav-item">Tourism</li>
 		<li class="footer-nav-item">|</li>
 		<li class="footer-nav-item">History &#38; Culture</li>

@@ -41,6 +41,10 @@ body {
 /*     max-width: 1024px;*/
 }
 
+input:focus {
+    outline:none;
+}
+
 /******************************************
 /* MTA COMMUTER SITE LAYOUT
 /*******************************************/
@@ -93,7 +97,7 @@ ul {
 .nav-underline {
      width: 100%;
      height: 8px;
-     background-color: #000000;
+     background-color: #000;
      margin-right: 0;
      margin-left: 0;
      margin-top: 132px;
@@ -107,7 +111,7 @@ ul {
      }
 }
 
-.main-item:link, .main-item:visited {
+.main-item, .main-item:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: bold;
@@ -126,7 +130,7 @@ ul {
 }
 
 @media screen and (min-width: 1024px) and (max-width:1100px){
-     .main-item:link, .main-item:visited, .main-item:hover, .main-item:active {
+     .main-item, .main-item:visited, .main-item:hover, .main-item:active {
           font-size: 0.266em;/* 16px;*/
           padding-left: 1px;     
           margin-left: 1px;
@@ -134,14 +138,14 @@ ul {
 }
 
 @media screen and (min-width: 896px) and (max-width:1023px){
-     .main-item:link, .main-item:visited, .main-item:hover, .main-item:active {
+     .main-item, .main-item:visited, .main-item:hover, .main-item:active {
           font-size: 0.233em;/* 14px;*/
           padding-left: 1px;     
           margin-left: 1px;
      }
 }
 
-.font-awesome:link, .font-awesome:visited {
+.font-awesome, .font-awesome:visited {
      text-decoration: none;
      color: #000; 
      font-size: 0.3em;/* 18px;*/
@@ -156,12 +160,12 @@ ul {
 }
 
 @media screen and (min-width: 896px) and (max-width:1100px){
-     .font-awesome:link, .font-awesome:visited, .font-awesome:hover, .font-awesome:active {
+     .font-awesome, .font-awesome:visited, .font-awesome:hover, .font-awesome:active {
           font-size: 0.266em;/* 16px;*/
      }
 }
 
-.secondary-item:link, .secondary-item:visited {
+.secondary-item, .secondary-item:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-size: 0.233em; /*14px;*/
@@ -174,7 +178,7 @@ ul {
 }
 
 @media screen and (min-width: 896px) and (max-width:1100px){
-     .secondary-item:link, .secondary-item:visited, .secondary-item:hover, .secondary-item:active {
+     .secondary-item, .secondary-item:visited, .secondary-item:hover, .secondary-item:active {
           font-size: 0.21em;/* 12px;*/
      }
 }
@@ -350,7 +354,7 @@ select {
      margin-right: 4px;
 }
 
-.letsgo-btn {
+.letsgo-btn, .letsgo-btn:visited {
      width: 35%;
      height: 40px;
      border: solid 3px #000000;
@@ -361,6 +365,11 @@ select {
      background-color: #fac90f;
      margin-top: 40px;
      text-decoration: none;
+}
+
+.letsgo-btn:hover, .letsgo-btn:active {
+       color: #fac90f;   
+       background-color: #000;
 }
 
 .peopleicon {
@@ -452,7 +461,7 @@ footer {
      margin: 0 4.101%;
 }
 
-.footer-nav-item {
+.footer-nav-item, .footer-nav-item:visited {
      display: inline-block;
      padding-top: 52px;
      padding-bottom: 22px;
@@ -474,7 +483,7 @@ footer {
      line-height: 14px;
 }
 
-.footer-btn {
+.footer-btn, .footer-btn:visited {
      width: 182px;
      height: 40px;
      background-color: #000;
@@ -486,7 +495,7 @@ footer {
      margin-right: 20px;
 }
 
-#footer-line-items {
+.footer-line-items {
      margin-top: 0;
      padding-left: 8px;
      background-color: #000;
@@ -522,7 +531,7 @@ footer {
      margin-left: 12px;
 }
 
-.font-awesome-corp:link, .font-awesome-corp:visited {
+.font-awesome-corp, .font-awesome-corp:visited {
      text-decoration: none;
      color: #fff; 
      font-size: 0.3em;/* 18px;*/
@@ -536,7 +545,7 @@ footer {
     color: #d1d1d1;
 }
 
-.secondary-item-corp:link, .secondary-item-corp:visited {
+.secondary-item-corp, .secondary-item-corp:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-size: 0.233em;/* 14px;*/
@@ -553,7 +562,7 @@ footer {
      margin: 0;
 }
 
-.main-item-corp:link, .main-item-corp:visited {
+.main-item-corp, .main-item-corp:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: bold;
@@ -592,7 +601,7 @@ footer {
      margin-left: 42px;
 }
 
-.see-how-btn {
+.see-how-btn, .see-how-btn:visited {
      width: 220px;
      height: 50px;
      border: solid 2px #f8f7f7;
@@ -619,7 +628,7 @@ footer {
      margin-top: 50px;
 }
 
-.load-more {
+.load-more, .load-more:visited {
      width: 220px;
      height: 50px;
      font-size:  0.3em; /*18px;*/
