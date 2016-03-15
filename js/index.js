@@ -1,10 +1,13 @@
 /*---- Main Site:Trip Planner Alert Box ----
 */
+$('.letsgo-btn').on('click',function(event){
+	event.preventDefault();
+	$('.expd-no-planner').slideDown();
+});
 
-$('#letsgo-btn')
+$('#pizza-submit')
 	.on('click', function (){
- 	alert("Trip Planner Coming Soon!");
- 	 $('#letsgo-btn').html('No Sign Ups!');
+ 	alert("Thanks for Signing Up! Here's your pizza code: FREEPIZZAYEAH");
  });
 
 /*---- Main Site:Service Status ----
@@ -74,8 +77,8 @@ $('.bridges-colps').on('click',function (){
 */
 
 $('.load-more').on('click',function (){
-	$('.news-row3').slideDown(1000);
-	});
+	$('.news-row3').slideDown(600);
+});
 
 
 

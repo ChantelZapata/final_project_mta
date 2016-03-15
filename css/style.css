@@ -93,6 +93,7 @@ ul {
 }
 
 .main-item:link, .main-item:visited {
+     text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: bold;
      font-size: 0.3em;/* 18px;*/
@@ -105,8 +106,8 @@ ul {
 }
 
 .main-item:hover, .main-item:active {
-    color: #626261;
     text-decoration: none;
+    color: #626261;
 }
 
 .font-awesome:link, .font-awesome:visited {
@@ -119,8 +120,8 @@ ul {
 }
 
 .font-awesome:hover, .font-awesome:active {
-    color: #626261;
     text-decoration: none;
+    color: #626261;
 }
 
 .secondary-item:link, .secondary-item:visited {
@@ -152,6 +153,7 @@ ul {
      margin-left: 4.101%;
      margin-top: 40px;
      margin-bottom: 42px;
+     margin-right: 6%;
      font-size: 0;
 }
 
@@ -180,7 +182,7 @@ ul {
 }
 
 .trip-planner {
-     margin-left: 30%;
+     margin-left: 0;
      margin-right: 0;
      padding-bottom: 6.25%;
      overflow: hidden;
@@ -265,7 +267,6 @@ ul {
      margin-top: 30px;
 }
 
-
 .form-subheaders {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 400;
@@ -305,8 +306,8 @@ select {
      margin-right: 4px;
 }
 
-#letsgo-btn {
-     width: 300px;
+.letsgo-btn {
+     width: 35%;
      height: 40px;
      border: solid 3px #000000;
      font-family: "Roboto", Helvetica, san-serif;
@@ -315,6 +316,7 @@ select {
      color: #000000;
      background-color: #fac90f;
      margin-top: 40px;
+     text-decoration: none;
 }
 
 .peopleicon {
@@ -322,6 +324,54 @@ select {
      width: 42%;
 }
 
+/*Drop Down*/
+
+.expd-no-planner {
+     background-color: #fac90f;
+     padding-top: 4px;
+     padding-bottom: 60px;
+     text-align: center;
+     margin: 0 auto;
+     display: none;
+}
+
+.trip-planner-not {
+     font-size: 0.5em; 
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 700;
+     text-align: center;
+     color: #fff;
+     margin-top: 20px;
+}
+
+.get-that-pizza {
+     margin: 0 auto;
+     text-align: center;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 400;
+     font-size: 16px;/*  0.266em; */
+     line-height: 20px;
+     color: #fff;
+     width: 40%;
+}
+
+.email-field {
+     width: 24%;
+}
+
+.pizza-submit {
+     width: 24%;
+     height: 40px;
+     border: solid 3px #000000;
+     font-family: "Roboto", Helvetica, san-serif;
+     font-weight: 700;
+     font-size: 18px;
+     color: #000000;
+     background-color: #fac90f;
+     margin-top: 10px;
+     margin-bottom: 60px;
+     text-decoration: none;
+}
 
 /* Tourist Call Out */
 .tourists {
@@ -428,7 +478,7 @@ footer {
      margin-left: 12px;
 }
 
-.font-awesome-corp {
+.font-awesome-corp:link, .font-awesome-corp:visited {
      text-decoration: none;
      color: #fff; 
      font-size: 0.3em;/* 18px;*/
@@ -437,11 +487,21 @@ footer {
      margin-right: 0;
 }
 
-.secondary-item-corp {
+.font-awesome-corp:hover, .font-awesome-corp:active {
+    text-decoration: none;
+    color: #d1d1d1;
+}
+
+.secondary-item-corp:link, .secondary-item-corp:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-size: 0.233em;/* 14px;*/
      color: #fff;
+}
+
+.secondary-item-corp:hover, .secondary-item-corp:active {
+    text-decoration: none;
+    color: #d1d1d1;
 }
 
 .main-nav-corp {
@@ -449,7 +509,7 @@ footer {
      margin: 0;
 }
 
-.main-item-corp {
+.main-item-corp:link, .main-item-corp:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: bold;
@@ -459,6 +519,11 @@ footer {
      margin-right: 0;
      text-align: justify;
      width: 72.265%;
+}
+
+.main-item-corp:hover, .main-item-corp:active {
+    text-decoration: none;
+    color: #d1d1d1;
 }
 
 .nav-underline-corp {
