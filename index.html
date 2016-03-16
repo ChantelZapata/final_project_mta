@@ -71,8 +71,8 @@
 	<h1 class="tp-header">TRIP PLANNER</h1>
 	
 	<div class="tp-toprow alignleft">
-		<button id="one-way">ONE WAY</button>
-		<button id="round-trip">ROUND TRIP</button>
+		<button class="one-way">ONE WAY</button>
+		<button class="round-trip">ROUND TRIP</button>
 	</div>
 
 	<div class="disclaimer clear">* Mandatory Field</div>
@@ -156,18 +156,27 @@
 <!-- DROP DOWN -->
 <div class="expd-no-planner clearfix:after">
 	<h3 class="trip-planner-not">The Trip Planner Isn't Live Yet!</h3>
-	<p class="get-that-pizza">We aplogize for the inconvenience. However, if you give us your email, we'll let you know when it's up - and give you a code for a free slice at Joe's Pizza! Please use this Google Map in the meantime.</p>
-	<input type="email" class="field email-field" placeholder="Email Address">
-	<br />
-	<input type="submit" name="submit" id="pizza-submit" class="pizza-submit" value="SIGN ME UP!">
-	<br />
+	<p class="get-that-pizza">We aplogize for the inconvenience. However, if you give us your email, we'll let you know when it's up - and give you a code for a free slice at Joe's Pizza! Impatient? For more general directions, you may use the map below in the meantime.</p>
+	<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form_response" class="entry">
+		<input type="email" class="field email-field" placeholder="Email Address">
+		<br />
+		<input type="submit" name="submit" id="pizza-submit" class="pizza-submit" value="SIGN ME UP!">
+		<iframe name="form_response" style="width:0;height:0;visibility:hidden;overflow:hidden;"></iframe>
+	</form>
+
+<div class="divider-line-holder">
+	<div class="divider-line"></div>
+</div>
 
 <div class="get-directions">
 	<p class="get-that-pizza">Enter your start and end points below.</p>
-	<input type="text" class="field email-field startPoint" placeholder="Start Point">
-	<input type="text" class="field email-field endPoint" placeholder="End Point">
-	<br />
-	<input type="submit" name="submit" id="letsgo-btn2" class="pizza-submit letsgo-btn2" value="LET’S GO (FOR REAL THIS TIME...)">
+	<form action="http://code.kimgoulbourne.com/mailto/send_email.php" method="post" target="form_response" class="entry">
+		<input type="text" class="field email-field startPoint" placeholder="Start Point">
+		<input type="text" class="field email-field endPoint" placeholder="End Point">
+		<br />
+		<input type="submit" name="submit" id="letsgo-btn2" class="pizza-submit letsgo-btn2" value="LET’S GO (FOR REAL THIS TIME...)">
+		<iframe name="form_response" style="width:0;height:0;visibility:hidden;overflow:hidden;"></iframe>
+	</form>
 </div>
 
 	<iframe
@@ -198,7 +207,7 @@
  	<div class="tourists clearfix:after">
  		<div class="tourist-holder">
 		<img src="images/tourist.png" alt="Tourist Icon" class="touristicon alignleft" width="90px" height="110px">
-		<p class="bottom-cta alignright">Are you visiting New York?</p>
+		<a href="http://www.nycgo.com/" target="_blank" class="bottom-cta alignright">Are you visiting New York?</a>
 		</div>
 	</div>
 
