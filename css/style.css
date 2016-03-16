@@ -73,6 +73,56 @@ ul {
      margin-left: 4.101%;
 }
 
+.hamburger {
+     display: none;
+}
+
+@media screen and (max-width:896px){
+     .hamburger { 
+          display: block;
+          position: absolute; 
+          top: 5%;
+          right: 5%; 
+     }
+
+     .hamburger { 
+          cursor: pointer; 
+          padding: 10px 35px 16px 0px; 
+     }
+     .hamburger span, .hamburger span:before, .hamburger span:after {
+       cursor: pointer;
+       border-radius: 1px;
+       height: 5px;
+       width: 35px;
+       background: #000;
+       position: absolute;
+       display: block;
+       content: '';
+     }
+     .hamburger span:before {
+       top: -10px; 
+     }
+     .hamburger span:after {
+       bottom: -10px;
+     }
+
+     .hamburger span, .hamburger span:before, .hamburger span:after {
+       transition: all 500ms ease-in-out;
+     }
+     .hamburger.active span {
+       background-color: transparent;
+     }
+     .hamburger.active span:before, .hamburger.active span:after {
+       top: 0;
+     }
+     .hamburger.active span:before {
+       transform: rotate(45deg);
+     }
+     .hamburger.active span:after {
+       transform: rotate(-45deg);
+     }
+}
+
 .navigation {
      margin-top: -10px;
      margin-right: 4.101%;
@@ -149,6 +199,12 @@ ul {
      }
 }
 
+@media screen and (max-width:896px){
+     .main-item, .main-item:visited, .main-item:hover, .main-item:active {
+          display: none;
+     }
+}
+
 .font-awesome, .font-awesome:visited {
      text-decoration: none;
      color: #000; 
@@ -169,6 +225,12 @@ ul {
      }
 }
 
+@media screen and (max-width:896px){
+     .font-awesome, .font-awesome:visited, .font-awesome:hover, .font-awesome:active {
+          display: none;
+     }
+}
+
 .secondary-item, .secondary-item:visited {
      text-decoration: none;
      font-family: "Roboto", Helvetica, san-serif;
@@ -184,6 +246,12 @@ ul {
 @media screen and (min-width: 896px) and (max-width:1100px){
      .secondary-item, .secondary-item:visited, .secondary-item:hover, .secondary-item:active {
           font-size: 0.21em;/* 12px;*/
+     }
+}
+
+@media screen and (max-width:896px){
+     .secondary-item, .secondary-item:visited, .secondary-item:hover, .secondary-item:active {
+          display: none;
      }
 }
 

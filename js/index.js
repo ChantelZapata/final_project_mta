@@ -102,5 +102,10 @@ $('.letsgo-btn2').on('click',function (){
 	
 //it ends up 7+penn+plaza
 
+/*Hamburger*/
+document.querySelector( ".hamburger" )
+  .addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
 
 
