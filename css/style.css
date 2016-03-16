@@ -80,9 +80,9 @@ ul {
 @media screen and (max-width:896px){
      .hamburger { 
           display: block;
-          position: absolute; 
-          top: 5%;
-          right: 5%; 
+          position: fixed; 
+          top: 15%;
+          right: 8%; 
      }
 
      .hamburger { 
@@ -163,6 +163,13 @@ ul {
           float:right;
           margin-top: 16px;
      }
+}
+
+@media screen and (max-width:896px) {
+     .nav-underline {
+          display: none;
+     }
+
 }
 
 .main-item, .main-item:visited {
