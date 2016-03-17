@@ -277,11 +277,11 @@ ul {
 .service-status {
      width: 240px;
      margin-left: 4.101%;
-     margin-top: 40px;
-     margin-bottom: 60px;
-     margin-right: 6%;
      padding-bottom: 30px;
      font-size: 0;
+     position: absolute;
+     left: 4.101%;
+     top: 200px;
 }
 
 .service-image {
@@ -309,12 +309,12 @@ ul {
 }
 
 .trip-planner {
-     margin-left: 0;
-     margin-right: 0;
+     margin-top: 30px;
+     margin-left: 33.899%;
+     margin-right: 4.101%;
      padding-bottom: 6.25%;
-/*     overflow: hidden;*/
      font-size: 0;
-     width: 100%;
+     width: 62%;
 }
 
 .tp-header {
@@ -323,11 +323,10 @@ ul {
      font-size: 60px;
      color: #fff;
      margin-bottom: 10px;
-     padding-top: 160px;
 }
 
 .tp-toprow {
-     margin: 0px 0 30px 0;
+     margin: 0 0 30px 0;
 }
 
 .dropdown {
@@ -368,19 +367,19 @@ ul {
      margin-top: 40px;
 }
 
-.2col-fields {
+/*.2col-fields {
      width: 100%;
      margin-right: 4.101%;
-}
+}*/
 
 .tp-column1 {
 /*     overflow: hidden;*/
-     width: 44%;
+     width: 46%;
 }
 
 .tp-column2 {
 /*     overflow: hidden;*/
-     width: 44%;
+     width: 46%;
 }
 
 .form-headers {
@@ -462,7 +461,7 @@ select {
 
 .tp-last-row {
      margin-top: 60px;
-     padding-bottom: 60px;
+     padding-bottom: 100px;
 }
 
 /*Drop Down*/
