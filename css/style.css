@@ -121,9 +121,6 @@ ul {
      .hamburger.active span:after {
        transform: rotate(-45deg);
      }
-     .burger-background {
-          background-color: black;
-     }
 }
 
 .navigation {
