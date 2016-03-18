@@ -1,29 +1,27 @@
-/*Hamburger*/
+/* ---- Hamburger ---- */
+
 document.querySelector( ".hamburger" )
   .addEventListener( "click", function() {
     this.classList.toggle( "active" );
   });
 
 
-// set up nav open variable
 var navOpen = false;
 
-// on click open or close nav
 $('.hamburger').on('click', function(){
   if (navOpen) {
-    //animate height of header closed - 45px
+
     $('.secondary-item, .font-awesome, .main-item').hide()/*.animate()*/;
     navOpen = false;
   }else {
-    //animate height of header open - 240px
+
     $('.secondary-item, .font-awesome, .main-item').show()/*.animate()*/;
     navOpen = true;
   };
 });
 
-// on resize, reset our nav height by removing the inline style (that gets added with .animate())
 $(window).on('resize', function(){
-  if($(window).width() >= 768) {
+  if($(window).width() >= 896) {
     $('.secondary-item, .font-awesome, .main-item').removeAttr('style');
   } 
 });
