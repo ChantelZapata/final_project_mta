@@ -81,8 +81,8 @@ ul {
      .hamburger { 
           display: block;
           position: fixed; 
-          top: 15%;
-          right: 8%; 
+          top: 60px;
+          right: 7%; 
      }
 
      .hamburger { 
@@ -310,23 +310,23 @@ ul {
 
 .trip-planner {
      margin-top: 30px;
-     margin-left: 33.899%;
+     margin-left: 33%;
      margin-right: 4.101%;
-     padding-bottom: 6.25%;
+     padding-bottom: 60px;
      font-size: 0;
-     width: 62%;
+     width: 66%;
 }
 
 .tp-header {
      font-family: "Roboto", Helvetica, san-serif;
      font-weight: 700;
-     font-size: 60px;
+     font-size: 70px;
      color: #fff;
-     margin-bottom: 10px;
+     margin-bottom: 14px;
 }
 
 .tp-toprow {
-     margin: 0 0 30px 0;
+     margin-bottom: 10px;
 }
 
 .dropdown {
@@ -367,19 +367,12 @@ ul {
      margin-top: 40px;
 }
 
-/*.2col-fields {
-     width: 100%;
-     margin-right: 4.101%;
-}*/
-
 .tp-column1 {
-/*     overflow: hidden;*/
-     width: 46%;
+     width: 47%;
 }
 
 .tp-column2 {
-/*     overflow: hidden;*/
-     width: 46%;
+     width: 47%;
 }
 
 .form-headers {
