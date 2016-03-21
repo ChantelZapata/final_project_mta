@@ -16,6 +16,7 @@ $('.hamburger').on('click', function(){
   }else {
 
     $('.navigation').show().css({"margin": "0 auto", "z-index": "3","position": "relative"});
+    $('.burgerbackground').show().css();
 	$('.main-nav').css({"display": "list-item", "font-size": "1.6em","text-align": "center","position": "relative", "left":"30"});
     navOpen = true;
   };
