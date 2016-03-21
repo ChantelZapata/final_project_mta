@@ -80,9 +80,10 @@ ul {
 @media screen and (max-width:896px){
      .hamburger { 
           display: block;
-          position: fixed; 
+          position: absolute; 
           top: 60px;
-          right: 7%; 
+          right: 7%;
+          z-index: 4; 
      }
 
      .hamburger { 
@@ -128,12 +129,20 @@ ul {
      margin-right: 4.101%;
      width: 82%;
      display:inline-block;
+     position:relative;
+     z-index: 3;
 }
 
 @media screen and (min-width: 896px) and (max-width:1100px){
      .navigation {
      margin-right: 2.101%;
      width: 82%;
+     }
+}
+
+@media screen and (max-width:896px){
+     .navigation {
+          display: none;
      }
 }
 
@@ -165,12 +174,13 @@ ul {
      }
 }
 
-@media screen and (max-width:896px) {
+
+/*@media screen and (max-width:896px) {
      .nav-underline {
           display: none;
      }
 
-}
+}*/
 
 .main-item, .main-item:visited {
      text-decoration: none;
@@ -206,12 +216,12 @@ ul {
      }
 }
 
-@media screen and (max-width:896px){
+/*@media screen and (max-width:896px){
      .main-item, .main-item:visited, .main-item:hover, .main-item:active {
           display: none;
      }
 }
-
+*/
 .font-awesome, .font-awesome:visited {
      text-decoration: none;
      color: #000; 
@@ -232,11 +242,11 @@ ul {
      }
 }
 
-@media screen and (max-width:896px){
+/*@media screen and (max-width:896px){
      .font-awesome, .font-awesome:visited, .font-awesome:hover, .font-awesome:active {
           display: none;
      }
-}
+}*/
 
 .secondary-item, .secondary-item:visited {
      text-decoration: none;
@@ -256,12 +266,16 @@ ul {
      }
 }
 
-@media screen and (max-width:896px){
+/*.burger-background {
+     display: none;
+}*/
+
+/*@media screen and (max-width:896px){
      .secondary-item, .secondary-item:visited, .secondary-item:hover, .secondary-item:active {
           display: none;
      }
 }
-
+*/
 /* Main Content Area*/
 
 .main-content {
@@ -282,6 +296,7 @@ ul {
      position: absolute;
      left: 4.101%;
      top: 200px;
+     z-index: 1;
 }
 
 .service-image {
@@ -315,6 +330,30 @@ ul {
      padding-bottom: 60px;
      font-size: 0;
      width: 66%;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1160px){
+     .trip-planner {
+     width: 60%;
+     }
+}
+
+@media screen and (min-width: 820px) and (max-width:1023px){
+     .trip-planner {
+     width: 55%;
+     }
+}
+
+@media screen and (min-width: 768px) and (max-width:819px){
+     .trip-planner {
+     width: 50%;
+     }
+}
+
+@media screen and (min-width: 568px) and (max-width:767px){
+     .trip-planner {
+     width: 45%;
+     }
 }
 
 .tp-header {
@@ -371,8 +410,20 @@ ul {
      width: 47%;
 }
 
+@media screen and (max-width:768px){
+     .tp-column1 {
+     width: 100%;
+     }
+}
+
 .tp-column2 {
      width: 47%;
+}
+
+@media screen and (max-width:768px){
+     .tp-column2 {
+     width: 100%;
+     }
 }
 
 .form-headers {
@@ -448,8 +499,21 @@ select {
        background-color: #000;
 }
 
+@media screen and (max-width:768px){
+     .letsgo-btn, .letsgo-btn:visited,.letsgo-btn:hover, .letsgo-btn:active {
+     width: 100%;
+     }
+}
+
 .peopleicon {
+     margin-top: 60px;
      width: 42%;
+}
+
+@media screen and (max-width:768px){
+     .peopleicon {
+     width: 100%;
+     }
 }
 
 .tp-last-row {

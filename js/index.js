@@ -11,18 +11,20 @@ var navOpen = false;
 $('.hamburger').on('click', function(){
   if (navOpen) {
 
-    $('.secondary-item, .font-awesome, .main-item').hide()/*.animate()*/;
+    $('.navigation').hide();
     navOpen = false;
   }else {
 
-    $('.secondary-item, .font-awesome, .main-item').show()/*.animate()*/;
+    $('.navigation').show().css({"margin": "0 auto", "z-index": "3","position": "relative"});
+	$('.main-nav').css({"display": "list-item", "font-size": "1.6em","text-align": "center","position": "relative", "left":"30"});
     navOpen = true;
   };
+
 });
 
 $(window).on('resize', function(){
   if($(window).width() >= 896) {
-    $('.secondary-item, .font-awesome, .main-item').removeAttr('style');
+    $('.navigation').removeAttr('style');
   } 
 });
 
@@ -39,9 +41,7 @@ $('#pizza-submit').on('click', function (){
  	alert("Thanks for signing up! Here's your pizza code: FREEPIZZAYEAH");
  });
 
-/*$('alert').on('close', function (){
- 	alert("Thanks for signing up! Here's your pizza code: FREEPIZZAYEAH");
- });*/
+
 
 /*---- Main Site:Service Status ----
 */
@@ -106,12 +106,18 @@ $('.bridges-colps').on('click',function (){
 	$('.bridges-colps').hide();
 });
 
+
+
+
 /*---- Corporate Site:News Section ----
 */
 
 $('.load-more').on('click',function (){
 	$('.news-row3').slideDown(600);
 });
+
+
+
 
 
 /*Map*/
