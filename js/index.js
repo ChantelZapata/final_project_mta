@@ -16,6 +16,7 @@ $('.hamburger').on('click', function(){
     $('.secondary-item-mbl').hide();
    	$('.font-awesome-mbl').hide();
     $('.burgerbackground').hide();
+    $('.hamburger').css({"position": "absolute", "top": "60px", "right": "7%", "z-index": "4", });
     navOpen = false;
   }else {
 
@@ -25,6 +26,29 @@ $('.hamburger').on('click', function(){
    	$('.font-awesome-mbl').show();
     $('.burgerbackground').show();
     $('.hamburger').css({"position": "fixed", "top": "60px", "right": "7%", "z-index": "4", });
+    navOpen = true;
+  };
+
+});
+
+$('.hamburger-corp').on('click', function(){
+  if (navOpen) {
+
+    $('.navigation').slideToggle().hide();
+    $('.secondary-for-mobile').hide();
+    $('.secondary-item-mbl').hide();
+   	$('.font-awesome-mbl').hide();
+    $('.burgerbackground').hide();
+    $('.hamburger-corp').css({"position": "absolute", "top": "60px", "right": "7%", "z-index": "4", });
+    navOpen = false;
+  }else {
+
+    $('.navigation').show();
+    $('.secondary-for-mobile').show();
+    $('.secondary-item-mbl').show();
+   	$('.font-awesome-mbl').show();
+    $('.burgerbackground').show();
+    $('.hamburger-corp').css({"position": "fixed", "top": "60px", "right": "7%", "z-index": "4", });
     navOpen = true;
   };
 
