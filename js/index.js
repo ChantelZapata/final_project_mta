@@ -11,13 +11,20 @@ var navOpen = false;
 $('.hamburger').on('click', function(){
   if (navOpen) {
 
-    $('.navigation').hide();
+    $('.navigation').slideToggle().hide();
+    $('.secondary-for-mobile').hide();
+    $('.secondary-item-mbl').hide();
+   	$('.font-awesome-mbl').hide();
+    $('.burgerbackground').hide();
     navOpen = false;
   }else {
 
-    $('.navigation').show().css({"margin": "0 auto", "z-index": "3","position": "relative"});
-    $('.burgerbackground').show().css();
-	$('.main-nav').css({"display": "list-item", "font-size": "1.6em","text-align": "center","position": "relative", "left":"30"});
+    $('.navigation').show();
+    $('.secondary-for-mobile').show();
+    $('.secondary-item-mbl').show();
+   	$('.font-awesome-mbl').show();
+    $('.burgerbackground').show();
+    $('.hamburger').css({"position": "fixed", "top": "60px", "right": "7%", "z-index": "4", });
     navOpen = true;
   };
 
