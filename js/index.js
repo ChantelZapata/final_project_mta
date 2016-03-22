@@ -31,8 +31,11 @@ $('.hamburger').on('click', function(){
 
 });
 
+
+var navOpenCorp = false;
+
 $('.hamburger-corp').on('click', function(){
-  if (navOpen) {
+  if (navOpenCorp) {
 
     $('.navigation').slideToggle().hide();
     $('.secondary-for-mobile').hide();
@@ -40,7 +43,7 @@ $('.hamburger-corp').on('click', function(){
    	$('.font-awesome-mbl').hide();
     $('.burgerbackground').hide();
     $('.hamburger-corp').css({"position": "absolute", "top": "60px", "right": "7%", "z-index": "4", });
-    navOpen = false;
+    navOpenCorp = false;
   }else {
 
     $('.navigation').show();
@@ -49,7 +52,7 @@ $('.hamburger-corp').on('click', function(){
    	$('.font-awesome-mbl').show();
     $('.burgerbackground').show();
     $('.hamburger-corp').css({"position": "fixed", "top": "60px", "right": "7%", "z-index": "4", });
-    navOpen = true;
+    navOpenCorp = true;
   };
 
 });

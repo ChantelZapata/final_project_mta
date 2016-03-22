@@ -1097,6 +1097,31 @@ footer {
 
 /* News Row 1*/
 
+.newsitems {
+     width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width:965px){
+     .newsitems {
+          width: 75%;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (min-width: 568px) and (max-width:767px){
+     .newsitems {
+          width: 50%;
+          margin: 0 auto;
+     }
+}
+
+@media screen and (max-width: 567px){
+     .newsitems {
+          width: 25%;
+          margin: 0 auto;
+     }
+}
+
 .news-item {
      width: 220px;
      height: 220px;
